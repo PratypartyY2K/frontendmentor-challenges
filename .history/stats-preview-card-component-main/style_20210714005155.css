@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-wrapper {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 4rem 6rem;
+}
+
+.heading {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+.heading .active {
+    color: hsl(277, 64%, 61%);
+}
+
+.card-content {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 1rem;
+}
+
+.stats + div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.stats > div {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(228, 45%, 44%); color: white;}
