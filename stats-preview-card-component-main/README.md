@@ -45,4 +45,4 @@ Mobile Version
 ## Author
 
  - Frontend Mentor - [@PratypartyY2K](https://www.frontendmentor.io/profile/PratypartyY2K)
- - Twitter - [@PratypartyK](https://twitter.com/PratypartyK)git
+ - Twitter - [@PratypartyK](https://twitter.com/PratypartyK)
