@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 4rem 30rem;
-    overflow: auto;
+    overflow: auto
 }
 
 .col-1, .col-2, .col-3 {

@@ -20,13 +20,14 @@ body {
     justify-content: center;
     align-items: center;
     padding: 4rem 30rem;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .col-1, .col-2, .col-3 {
     position: relative;
     padding: 2.5rem 3.5rem;
     height: 400px;
+    overflow: auto
 }
 
 .col-1 {
