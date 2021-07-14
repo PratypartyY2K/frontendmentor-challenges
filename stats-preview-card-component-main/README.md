@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 Dekstop version
-![Desktop version](./screenshot-desktop.png)  
+![Desktop version](./screenshot-desktop.png)
 Mobile Version
 ![Mobile version](./screenshot-mobile.png)
 
