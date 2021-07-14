@@ -30,8 +30,8 @@ Mobile Version
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Directory](https://github.com/PratypartyY2K/frontendmentor-challenges/edit/main/3-column-card)
+- Live Site URL: [GitHub Page](https://pratypartyy2k.github.io/frontendmentor-challenges/3-column-card/)
 
 ## My process
 
