@@ -1,0 +1,72 @@
+:root {
+    --primary-orange: hsl(31, 77%, 52%);
+    --primary-cyan: hsl(184, 100%, 22%);
+    --primary-dark-cyan: hsl(179, 100%, 13%);
+    --neutral-white: hsla(0, 0%, 100%, 0.75);
+    --neutral-gray: hsl(0, 0%, 95%);
+    --col-padding: 2rem 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .card-wrapper {
+        background-color: var(--neutral-gray);
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .col-1 {
+        background-color: var(--primary-orange);
+        border-radius: 8px 8px 0 0;
+        padding: var(--col-padding);
+    }
+
+    .col-2 {
+        background-color: var(--primary-cyan);
+        padding: var(--col-padding);
+    }
+
+    .col-3 {
+        background-color: var(--primary-dark-cyan);
+        border-radius: 0 0 8px 8px;
+        padding: var(--col-padding);
+    }
+
+    h3 {
+        color: var(--neutral-gray);
+        font-size: 2rem;
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+    }
+
+    .card-content {
+        font-size: 0.75rem;
+        color: var(--neutral-white);
+        line-height: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    button {
+        background-color: var(--neutral-gray);
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 15px;
+        outline-style: none;
+        letter-spacing: 1.5px;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

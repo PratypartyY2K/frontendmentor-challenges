@@ -1,0 +1,145 @@
+:root {
+    --primary-orange: hsl(31, 77%, 52%);
+    --primary-cyan: hsl(184, 100%, 22%);
+    --primary-dark-cyan: hsl(179, 100%, 13%);
+    --neutral-white: hsla(0, 0%, 100%, 0.75);
+    --neutral-gray: hsl(0, 0%, 95%);
+    --col-padding: 2.5rem 4rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.card-wrapper {
+    background-color: var(--neutral-gray);
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 26rem;
+}
+
+.col-1, .col-2, .col-3 {
+    position: relative;
+    padding: 2.5rem 3.5rem;
+    height: 400px;
+}
+
+.col-1 {
+    background-color: var(--primary-orange);
+    border-radius: 8px 0 0 8px;
+}
+
+.col-2 {
+    background-color: var(--primary-cyan);
+}
+
+.col-3 {
+    background-color: var(--primary-dark-cyan);
+    border-radius: 0 8px 8px 0;
+}
+
+h3 {
+    color: var(--neutral-gray);
+    font-size: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.card-content {
+    font-size: 0.75rem;
+    color: var(--neutral-white);
+    line-height: 1.25rem;
+    margin-bottom: 5rem;
+    letter-spacing: 1px;
+}
+
+button {
+    position: absolute;
+    bottom: 50px;
+    background-color: var(--neutral-gray);
+    padding: 0.75rem 1.5rem;
+    border: 2.5px solid var(--neutral-gray);
+    border-radius: 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: inherit;
+    color: var(--neutral-gray);
+}
+
+.btn-1 {
+    color: var(--primary-orange);
+}
+
+.btn-2 {
+    color: var(--primary-cyan);
+}
+
+.btn-3 {
+    color: var(--primary-dark-cyan);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .col-1, .col-2, .col-3 {
+        padding: var(--col-padding);
+    }
+
+    .col-1 {
+        background-color: var(--primary-orange);
+        border-radius: 8px 8px 0 0;
+    }
+
+    .col-2 {
+        background-color: var(--primary-cyan);
+    }
+
+    .col-3 {
+        background-color: var(--primary-dark-cyan);
+        border-radius: 0 0 8px 8px;
+    }
+
+    .card-content {
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-1 {
+        color: var(--primary-orange);
+    }
+
+    .btn-2 {
+        color: var(--primary-cyan);
+    }
+
+    .btn-3 {
+        color: var(--primary-dark-cyan);
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
