@@ -99,14 +99,14 @@ h3 {
 .bg-upper-img {
     position: absolute;
     top: -27.5rem;
-    left: -10rem;
+    left: -20rem;
     right: 0;
     bottom: 0;
 }
 
 .bg-bottom-img {
     position: absolute;
-    right: -10rem;
+    right: -20rem;
     bottom: -30rem;
     z-index:-1;
 }
